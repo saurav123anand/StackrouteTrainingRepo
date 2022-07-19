@@ -1,0 +1,5 @@
+Q. what is Bean class or POJO class(Plain Old Java Object)
+answer--> the class in which we don't write business logic and in this class we will only have fields ,getters
+and setters
+points ---->
+1. constructor gets executed only at the time of object creation that's why we use getters and setters with constructor
