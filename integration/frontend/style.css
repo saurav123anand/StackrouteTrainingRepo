@@ -1,0 +1,23 @@
+img{
+    width: 100vw;
+    height: 550px;
+    object-fit: fill;
+
+}
+.carousel-item{
+    position: relative;
+    z-index: 0;
+    width: 100vw;
+    height: 550px;
+
+}
+.carousel-item::before{
+    content: "";
+    background-color:rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 15848;
+}

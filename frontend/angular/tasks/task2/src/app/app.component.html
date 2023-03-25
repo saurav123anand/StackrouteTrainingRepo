@@ -1,0 +1,7 @@
+<h2>Task 2</h2>
+
+<div *ngFor="let customer of customerArr;let i=index">
+   <h6 [ngClass]="{'red':i%2==0,'blue':i%2!=0}">
+    {{customer.name}},{{customer.age}},{{customer.id}}
+   </h6>
+</div>

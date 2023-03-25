@@ -1,0 +1,8 @@
+com\trainingapps\userms\controller\UserController.class
+com\trainingapps\userms\service\UserServiceImpl.class
+com\trainingapps\userms\exception\UserNotFoundException.class
+com\trainingapps\userms\controller\CentralizedExceptionHandler.class
+com\trainingapps\userms\dao\UserRepository.class
+com\trainingapps\userms\entity\User.class
+com\trainingapps\userms\ApplicationMain.class
+com\trainingapps\userms\service\IUserService.class

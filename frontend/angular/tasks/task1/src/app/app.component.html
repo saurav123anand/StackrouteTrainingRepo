@@ -1,0 +1,52 @@
+<!--
+<form action="">
+  <div>
+    <label>Firstname</label>
+    <input type="text" name="userFirstname" [(ngModel)]="customer.firstname">
+  </div>
+  <div>
+    <label>Lastname</label>
+    <input type="text" name="userLastname" [(ngModel)]="customer.lastname">
+  </div>
+  <div>
+    <label>Age</label>
+    <input type="number" name="userage" [(ngModel)]="customer.age">
+  </div>
+  <div>
+    <label>Balance</label>
+    <input type="text" name="userBalance" [(ngModel)]="customer.balance">
+  </div>
+</form>
+<div>
+  <h2>Details entered </h2>
+  <h5>Firstname is {{customer.firstname}}</h5>
+  <h5>lastname is {{customer.lastname}}</h5>
+  <h5>Age is {{customer.age}}</h5>
+  <h5>Balance is {{customer.balance}}</h5>
+</div>
+-->
+
+<!--second way-->
+<div>
+  <div>
+    <label>Firstname</label>
+    <input type="text" name="userFirstname" #fname>
+  </div>
+  <div>
+    <label>Lastname</label>
+    <input type="text" name="userLastname" #lname>
+  </div>
+  <div>
+    <label>Age</label>
+    <input type="number" name="userage" #age>
+  </div>
+  <div>
+    <label>Balance</label>
+    <input type="text" name="userBalance" #balance>
+  </div>
+  <button (click)="addCustomer(fname.value,lname.value,age.value,balance.value,details)">add customer</button>
+</div>
+
+<div #details>
+  
+</div>

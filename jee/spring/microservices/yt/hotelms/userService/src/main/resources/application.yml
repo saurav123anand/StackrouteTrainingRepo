@@ -1,0 +1,23 @@
+server:
+  port: 8585
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/micro_userdb
+    username: root
+    password: Saurav@123anand
+
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+hibernate:
+  format_sql: true;
+
+
+

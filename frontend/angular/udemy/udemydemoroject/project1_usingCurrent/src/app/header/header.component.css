@@ -1,0 +1,14 @@
+.menus{
+    display: none;
+}
+.menus li{
+    list-style: none;
+    background-color: rgb(213, 196, 196);
+}
+.menus li a {
+  text-decoration: none;
+  color: black;
+}
+.open{
+    display: block;
+}

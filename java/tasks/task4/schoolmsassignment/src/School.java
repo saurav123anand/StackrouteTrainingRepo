@@ -6,7 +6,10 @@ public class School {
     void addStudent(Student student){
 
     }
-    Student[] findStudentByStandard(int standard){
+    Student[] findStudentsByStandard(int standard){
        return null;
+    }
+    Student[] findAll(){
+        return students;
     }
 }

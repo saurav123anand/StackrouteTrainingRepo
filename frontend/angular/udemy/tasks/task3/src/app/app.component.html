@@ -1,0 +1,13 @@
+<!--
+<button (click)="showSecret=!showSecret">Display Details</button>
+-->
+
+<button (click)="onToggleDetails()">Display Details</button>
+<p *ngIf="showSecret">Secret password=tuna</p>
+
+<div 
+*ngFor="let logItem of logData; let i=index"
+[ngStyle]="{'background-color':i>=4?'blue':'transparent'}"
+[ngClass]="{'white-text':i>=4}">
+   {{logItem}}
+</div>
